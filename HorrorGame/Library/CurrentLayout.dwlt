@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 86
+  controlID: 24
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 99
+  controlID: 25
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -500,9 +500,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 258.99982, y: -392.0077, z: 478.5952}
+    m_Target: {x: 9.661418, y: 55.862892, z: 80.35896}
     speed: 2
-    m_Value: {x: 258.99982, y: -392.0077, z: 478.5952}
+    m_Value: {x: 9.661418, y: 55.862892, z: 80.35896}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -530,13 +530,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.32118633, y: 0.21691969, z: -0.0758394, w: 0.91871303}
+    m_Target: {x: 0.35737145, y: 0.3174247, z: -0.13060242, w: 0.86860245}
     speed: 2
-    m_Value: {x: 0.32118633, y: 0.21691969, z: -0.0758394, w: 0.91871303}
+    m_Value: {x: 0.35737145, y: 0.3174247, z: -0.13060242, w: 0.86860245}
   m_Size:
-    m_Target: 1086.2102
+    m_Target: 189.25243
     speed: 2
-    m_Value: 1086.2102
+    m_Value: 189.25243
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 427}
-      m_SelectedIDs: d0490000
-      m_LastClickedID: 18896
+      scrollPos: {x: 0, y: 420}
+      m_SelectedIDs: dc4a0000
+      m_LastClickedID: 19164
       m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -640,13 +640,12 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/My Assets/Scripts
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Alexander\Documents\GitHub\HorrorGame\HorrorGame
+  m_LastProjectPath: C:\Users\Alexander\Documents\GitHub\HorrorGamev2\HorrorGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
