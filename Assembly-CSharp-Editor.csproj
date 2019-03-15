@@ -60,6 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Effects\Scripts\Editor\RFX4_CustomMaterialInspectorParticle.cs" />
+    <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Effects\Scripts\Editor\RFX4_ReplaceDistortionForMobile.cs" />
+    <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Effects\Scripts\Editor\RFX4_Unity_Pain.cs" />
+    <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Effects\Shaders\Editor\RFX4_UberDecalGUI.cs" />
+    <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Effects\Shaders\Editor\RFX4_UberDistortionGUI.cs" />
+    <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\Effects\Shaders\Editor\RFX4_UberParticleGUI.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioImportPostProcessor.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\AudioManagerInspector.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\Editor\MinMaxPropertyDrawer.cs" />
@@ -133,19 +139,19 @@
     <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_Preferences.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\Editor\pb_ScenePostProcessor.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -397,40 +403,40 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore-Unity5">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Assets/ProCore/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Assets/ProCore/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
     </Reference>
     <Reference Include="Poly2Tri">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderEditor-Unity5">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Assets/ProCore/ProBuilder/Editor/ProBuilderEditor-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable/HorrorGame/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>/Users/ethanpham/Downloads/HorrorGame-first_playable-2/HorrorGame/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
