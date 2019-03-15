@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 6142039023484051293}
   - component: {fileID: 6142039023484051282}
   - component: {fileID: 6142039023484051283}
+  - component: {fileID: 6439797079015188030}
   m_Layer: 0
   m_Name: KeyHole
   m_TagString: Untagged
@@ -209,7 +210,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6142039023484051280}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 40.4, y: 3.66, z: 140.94}
   m_LocalScale: {x: 1.5, y: 1.5000019, z: 1}
   m_Children:
@@ -291,10 +292,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cffb0fe2693cd4ae68be3ca22168f6e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keys:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  colorRef: {fileID: 0}
+  anim: {fileID: 0}
+--- !u!54 &6439797079015188030
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6142039023484051280}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &6142039023512316375
 GameObject:
   m_ObjectHideFlags: 0
