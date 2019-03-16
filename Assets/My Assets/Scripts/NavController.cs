@@ -9,11 +9,20 @@ public class NavController : MonoBehaviour
     NavMeshAgent agent;
     public Transform dest;
     public Transform start;
+    public GameObject gameover;
+
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        Time.timeScale = 0;
+        gameover.SetActive(true);
+        Debug.Log("hit");
     }
 
     private void Update()
