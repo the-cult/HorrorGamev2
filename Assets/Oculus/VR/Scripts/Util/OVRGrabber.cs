@@ -47,6 +47,11 @@ public class OVRGrabber : MonoBehaviour
     [SerializeField]
     protected OVRInput.Controller m_controller;
 
+    public OVRInput.Controller GetController()
+    {
+        return m_controller;
+    }
+
     [SerializeField]
     protected Transform m_parentTransform;
 
@@ -61,6 +66,7 @@ public class OVRGrabber : MonoBehaviour
     protected Quaternion m_grabbedObjectRotOff;
 	protected Dictionary<OVRGrabbable, int> m_grabCandidates = new Dictionary<OVRGrabbable, int>();
 	protected bool operatingWithoutOVRCameraRig = true;
+    //public OVRInput.Controller controller;
 
     /// <summary>
     /// The currently grabbed object.
