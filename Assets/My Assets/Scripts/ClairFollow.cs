@@ -31,19 +31,19 @@ public class ClairFollow : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            timerCanvas.SetActive(true);
+           // timerCanvas.SetActive(true);
             nav.SetDestination(waypoints[i].position);
             //nav.SetDestination(waypoint.position);
             anim.SetBool("isWalking", true);
-            if (i < 3)
-            {
-                i++;
-            }
-            if (i == 2)
-            {
-                Demon_lord.SetActive(true);
-                Instantiate(teleportPoint, teleSpawnPoint.position, teleSpawnPoint.rotation);
-            }
+           // if (i < 3)
+            //{
+            //    i++;
+            //}
+            //if (i == 2)
+            //{
+            //    Demon_lord.SetActive(true);
+            //    Instantiate(teleportPoint, teleSpawnPoint.position, teleSpawnPoint.rotation);
+            //}
         }
 
     }
@@ -51,10 +51,10 @@ public class ClairFollow : MonoBehaviour
     private void Update()
     {
         //nav.SetDestination(waypoint.position);
-        if ((transform.position - waypoints[i].position).magnitude < 1f)
-        {
-            transform.LookAt(player);
-            anim.SetBool("isWalking", false);
+       // if ((transform.position - waypoints[i].position).magnitude < 1f)
+       // {
+       //     transform.LookAt(player);
+       //     anim.SetBool("isWalking", false);
             /*
 
             if (3 < i && i < 6 && !isSneaking)
@@ -64,7 +64,7 @@ public class ClairFollow : MonoBehaviour
                 Demon_LordController.ClaireArrived = true;
             }
             */
-        }
+      //  }
     }
 
     void Sneaking ()
