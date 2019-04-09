@@ -7,6 +7,9 @@ TagManager:
   - Key
   - Door
   - colorManager
+  - Demon_Lord
+  - Throwable
+  - waypoint
   layers:
   - Default
   - TransparentFX

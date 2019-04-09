@@ -7,9 +7,11 @@ public class NavController : MonoBehaviour
 {
 
     NavMeshAgent agent;
-    public Transform dest;
-    public Transform start;
-    public GameObject gameover;
+   //public Transform dest;
+    //public Transform start;
+    public float radius, force;
+    
+   //public GameObject gameover;
 
 
     void Start()
@@ -17,14 +19,45 @@ public class NavController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         
     }
-
-    void OnCollisionEnter(Collision collision)
+    /*
+    private void FixedUpdate()
     {
-        Time.timeScale = 0;
-        gameover.SetActive(true);
-        Debug.Log("hit");
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+        foreach (Collider c in colliders)
+        {
+            Rigidbody rb = c.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.AddExplosionForce(force, transform.position, radius);
+            }
+        }
+    }
+    */
+    void OnTriggerEnter(Collider other)
+    {
+
+        if (other.gameObject.CompareTag("Throwable"))
+        {
+            Invoke("Explosion", 1.0f);
+        }
+        //Time.timeScale = 0;
+        //gameover.SetActive(true);
+        //Debug.Log("hit");
     }
 
+    void Explosion()
+    {
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+        foreach (Collider c in colliders)
+        {
+            Rigidbody rb = c.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.AddForce(transform.forward * -force, ForceMode.Impulse);
+            }
+        }
+    }
+    /*
     private void Update()
     {
         agent.destination = dest.position;
@@ -34,4 +67,5 @@ public class NavController : MonoBehaviour
             agent.destination = start.position;
         }
     }
+    */
 }

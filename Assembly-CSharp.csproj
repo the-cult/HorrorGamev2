@@ -110,7 +110,9 @@
     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\SceneResources\Other\RFX4_FPS.cs" />
     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\SceneResources\Other\RFX4_MouseOrbit.cs" />
     <Compile Include="Assets\KriptoFX\Realistic Effects Pack v4\SceneResources\Other\RFX4_RealtimeReflection.cs" />
+    <Compile Include="Assets\My Assets\Scripts\ClairFollow.cs" />
     <Compile Include="Assets\My Assets\Scripts\ColorManager.cs" />
+    <Compile Include="Assets\My Assets\Scripts\Demon_LordController.cs" />
     <Compile Include="Assets\My Assets\Scripts\FireBall.cs" />
     <Compile Include="Assets\My Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\My Assets\Scripts\KeyHoleManager.cs" />
@@ -119,8 +121,10 @@
     <Compile Include="Assets\My Assets\Scripts\MainMenuController.cs" />
     <Compile Include="Assets\My Assets\Scripts\MazeExit.cs" />
     <Compile Include="Assets\My Assets\Scripts\Minimap.cs" />
+    <Compile Include="Assets\My Assets\Scripts\MutantMovement.cs" />
     <Compile Include="Assets\My Assets\Scripts\NavController.cs" />
     <Compile Include="Assets\My Assets\Scripts\ShootFireBall.cs" />
+    <Compile Include="Assets\My Assets\Scripts\TeleportPointManager.cs" />
     <Compile Include="Assets\My Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\New Graphics assets used\RunemarkStudio\DarkFantasyKit [Free]\Readme\Parts\Readme.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
