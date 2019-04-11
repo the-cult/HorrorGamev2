@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class MutantMovement : MonoBehaviour
 {
-    public Transform player, initialPos;
+    public Transform initialPos;
+    public GameObject player;
     public float distance;
-    public GameObject gameOver;
+    //public GameObject gameOver;
     NavMeshAgent nav;
     Animator anim;
+    public Animator gameEndAnim;
 
 
     // Start is called before the first frame update
@@ -22,12 +25,12 @@ public class MutantMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawLine(player.position, transform.position + Vector3.up, Color.red, 1.0f);
-        if ((player.position - transform.position).magnitude < distance)
+        Debug.DrawLine(player.transform.position, transform.position + Vector3.up, Color.red, 1.0f);
+        if ((player.transform.position - transform.position).magnitude < distance)
         {
-            if(Physics.Linecast(player.position, transform.position))
+            if(Physics.Linecast(player.transform.position, transform.position))
             {
-                nav.SetDestination(player.position);
+                nav.SetDestination(player.transform.position);
                 anim.SetBool("isWalking", true);
             }
         }
@@ -46,8 +49,16 @@ public class MutantMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Time.timeScale = 0;
-            gameOver.SetActive(true);
+            gameEndAnim.SetBool("isLost", true);
+            Invoke("MainMenu", 5.0f);
+            player.GetComponent<OVRPlayerController>().enabled = false;
+            //Time.timeScale = 0;
+            //gameOver.SetActive(true);
         }
+    }
+
+    void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }

@@ -1,20 +1,24 @@
 ﻿<Properties StartupConfiguration="{B78D4906-1DFD-4611-A33A-56E5949AE4CE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Assets/Scripts/ClairFollow.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/My Assets/Scripts/MagicStick.cs">
     <Files>
       <File FileName="Assets/My Assets/Scripts/KeyHoleOperation.cs" Line="26" Column="31" />
       <File FileName="Assets/SteamVR/Scripts/SteamVR_RenderModel.cs" Line="1" Column="1" />
-      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs" Line="311" Column="53" />
       <File FileName="Assets/My Assets/Scripts/ShootFireBall.cs" Line="33" Column="33" />
       <File FileName="Assets/Oculus/VR/Scripts/Util/OVRGrabber.cs" Line="52" Column="29" />
       <File FileName="Assets/My Assets/Scripts/FireBall.cs" Line="16" Column="39" />
       <File FileName="Assets/My Assets/Scripts/Minimap.cs" Line="14" Column="37" />
       <File FileName="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs" Line="30" Column="20" />
       <File FileName="Assets/My Assets/Scripts/NavController.cs" Line="59" Column="6" />
-      <File FileName="Assets/My Assets/Scripts/ClairFollow.cs" Line="53" Column="11" />
-      <File FileName="Assets/My Assets/Scripts/MutantMovement.cs" Line="50" Column="38" />
+      <File FileName="Assets/My Assets/Scripts/MutantMovement.cs" Line="12" Column="7" />
       <File FileName="Assets/My Assets/Scripts/KeyHoleManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/My Assets/Scripts/Demon_LordController.cs" Line="19" Column="27" />
-      <File FileName="Assets/My Assets/Scripts/TeleportPointManager.cs" Line="25" Column="55" />
+      <File FileName="Assets/My Assets/Scripts/Demon_LordController.cs" Line="52" Column="78" />
+      <File FileName="Assets/My Assets/Scripts/TeleportPointManager.cs" Line="25" Column="15" />
+      <File FileName="Assets/My Assets/Scripts/ClaireMovement.cs" Line="7" Column="2" />
+      <File FileName="Assets/My Assets/Scripts/Timer.cs" Line="32" Column="1" />
+      <File FileName="Assets/My Assets/Scripts/MazeExit.cs" Line="18" Column="71" />
+      <File FileName="Assets/My Assets/Scripts/MagicStick.cs" Line="7" Column="5" />
+      <File FileName="Assets/My Assets/Scripts/KeyManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/My Assets/Scripts/PlayerWeapon.cs" Line="15" Column="75" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

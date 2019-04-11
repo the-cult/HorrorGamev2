@@ -13,7 +13,7 @@ public class TeleportPointManager : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Instantiate(teleportPoint, nextTeleportPoint.position, nextTeleportPoint.rotation);
-            Demon_LordController.playerArrived = true;
+            //Demon_LordController.playerArrived = true;
             
         }
     }
@@ -22,7 +22,7 @@ public class TeleportPointManager : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Demon_LordController.playerArrived = false;
+            //Demon_LordController.playerArrived = false;
 
         }
     }

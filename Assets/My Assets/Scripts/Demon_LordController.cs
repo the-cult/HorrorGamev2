@@ -4,46 +4,54 @@ using UnityEngine;
 
 public class Demon_LordController : MonoBehaviour
 {
-    public static bool playerArrived = false;
-    public static bool ClaireArrived = false;
-    bool targetDetected = false;
+
     public float radius, force;
-    float counter = 0f;
+    float onGroundCounter = 0f;
+    float onSkyCounter = 0f;
+    public float onGroundTime, onSkyTime;
+    Animator anim;
+    Rigidbody rb;
+    public float flySpeed;
+    public Transform flyDest, groundDest;
+    bool exploded = false;
+    bool gotHurt = false;
 
-    private void FixedUpdate()
+    private void Start()
     {
-        //check if the player and Claire arrived at their corresponding destinations at the same time
-        if (playerArrived != ClaireArrived && !targetDetected)
-        {
-            counter += Time.fixedDeltaTime;
-            if (counter >= 0.5f)
-            {
-                targetDetected = true;
-                Invoke("Explosion", 1.0f);
-                counter = 0f;
-            }
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
+    }
 
+    private void Update()
+    {
+        //call Explosion every 4s
+        onGroundCounter += Time.deltaTime;
+        if (onGroundCounter > 4f && !exploded)
+        {
+            Explosion();
+            exploded = true;
+        }
+        if (onGroundCounter > 8f)
+        {
+            exploded = false;
+            onGroundCounter = 0f;
+            Explosion();
         }
     }
 
-    void OnTriggerEnter(Collider other)
-    {
 
-        if (other.gameObject.CompareTag("Throwable"))
-        {
-            Invoke("Explosion", 1.0f);
-        }
-    }
 
     void Explosion()
     {
         Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
         foreach (Collider c in colliders)
         {
-            Rigidbody rb = c.GetComponent<Rigidbody>();
-            if (rb != null)
+            Rigidbody c_rb = c.GetComponent<Rigidbody>();
+            if (c_rb != null)
             {
-                rb.AddForce(transform.forward * -force, ForceMode.Impulse);
+                c_rb.AddForce(transform.forward * -force, ForceMode.Impulse);
+                //gotHurt = true;
+                
             }
         }
     }
