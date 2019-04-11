@@ -114,7 +114,7 @@ public class ClaireMovement : MonoBehaviour
     {
         Vector3 newPosition;
         newPosition.x = player.position.x;
-        newPosition.y = player.position.y - 1f;
+        newPosition.y = player.position.y - 2f;
         newPosition.z = player.position.z - distance;
         transform.position = newPosition;
         //transform.LookAt(player);
